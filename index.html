@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css"/>
+    <title>Guessing Game</title>
+</head>
+
+<body>
+    <!-- game div -->
+    <div class="game_div">
+
+        <!-- game title -->
+        <div class="game_body">
+            <h1>Number Guessing Game</h1>
+            <h2>Guess a number from 1 and 100</h2> 
+        </div>
+
+        <!-- input form -->
+        <div class="form">
+            <input type="text" id="guessField" class="guessField">
+        </div> 
+        <br>
+
+        <!-- game button -->
+        <div class="button">
+            <button type="button" id="sub" class="submit"> Guess </button>
+            <button type="button" id="restart" class="restartSubmit"> Restart </button>
+            <button type="button" id="hint" class="hint"> Hint </button>
+        </div>  
+        
+        <!-- message & hint -->
+        <div class="resultPress">
+            <p class="last_p">Previous Guesses: <span class="guesses"></span></p>
+            <p class="last_p">Guesses Remaing: <span class="lastResult">5</span></p>
+            <p class= "lowOrHi" ></p>
+            <p class= "hintP" ><span class="hintNumber"></span></p>
+        </div>
+
+    </div>
+
+ 
+</body>
+</html>
