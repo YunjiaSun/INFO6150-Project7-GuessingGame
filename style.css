@@ -13,6 +13,8 @@ body{
     justify-content: center;   
 }
 
+
+
 .game_div{
     height: 600px;
     width: 800px;
@@ -22,6 +24,20 @@ body{
     box-shadow: 0 14px 28px rgba(0,0,0,0.25),
                 0 10px 10px rgba(0,0,0,0.22);
     border-radius: 4px;
+}
+
+@media screen and (max-width:800px) {
+    .game_div {
+        height: 500px;
+        width: 650px;       
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .game_div {
+        height: 450px;
+        width: 500px;       
+    }
 }
 
 .game_body{
@@ -36,8 +52,36 @@ body{
     font-size: 30px;
 }
 
+@media screen and (max-width: 800px) {
+    .game_body h1 {
+        font-size: 25px;
+        margin-right: 160px;   
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .game_body h1 {
+        font-size: 18px;
+        margin-right: 300px;   
+    }
+}
+
 .game_body h2{
     margin-top: 8px; 
+}
+
+@media screen and (max-width: 800px) {
+    .game_body h2 {
+        font-size: 19px;
+        margin-right: 160px;   
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .game_body h2 {
+        font-size: 15px;
+        margin-right: 305px;   
+    }
 }
 
 .form{
@@ -100,10 +144,37 @@ body{
     margin-top: 20px;
 }
 
+@media screen and (max-width: 800px) {
+    .last_p {
+        margin-top: 8px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .last_p {
+        font-size: 12px;
+        margin-top: 15px;  
+    }
+}
+
 .lowOrHi{
     margin-top: 25px;
     color: red;
     font-size: 15px;
+}
+
+@media screen and (max-width: 800px) {
+    .lowOrHi {
+        margin-top: 12px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .lowOrHi {
+        font-size: 9px;
+        margin-top: 12px;  
+    }
 }
 
 .hintP{
@@ -128,6 +199,22 @@ p{
     margin-left:5px;
 }
 
+@media screen and (max-width: 800px) {
+    .guesses_div {
+        font-size: 12px;
+        padding-left: 15px;
+        padding-right: 15px;       
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .guesses_div {
+        font-size: 10px;
+        padding-left: 12px;
+        padding-right: 12px;       
+    }
+}
+
 .hint_div{
     border:  1px dashed #fff;
     border-color: #fff;
@@ -138,6 +225,13 @@ p{
     padding-top: 5px;
     padding-bottom: 5px;
     margin-left:5px;
+}
+
+@media screen and (max-width: 600px) {
+    .hint_div {
+        font-size: 18px;
+        margin-top: 15px;  
+    }
 }
 
 
